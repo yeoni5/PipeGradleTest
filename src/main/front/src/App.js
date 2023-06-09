@@ -33,7 +33,7 @@ const App = () => {
             <h1>Test-3</h1>          
             <ul style={{ listStyle: 'none' }}>
               {
-                message.map((text, index) => <li key='${ index }}'>
+                message.map((text, index) => <li key={ index }>
                     { text }
                   </li>)
               }
@@ -43,7 +43,7 @@ const App = () => {
         <section>
             <h2 style={{ listStyle: 'none' }}>SpringBoot /list 로부터 받은 데이타 출력</h2>
             {
-              data.map((obj, index) => <li key='${ index }'>
+              data.map((obj, index) => <li key={ index }>
                 { obj.name } : { obj.addr } 거주({ obj.age }세)
               </li>)
             }
