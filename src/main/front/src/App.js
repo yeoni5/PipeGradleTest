@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-
+import img1 from './1.jpg';
 import './App.css';
 
 const App = () => {
@@ -28,16 +28,17 @@ const App = () => {
 
   return (
     <div className="App">
-        <header>  
+        <header>
+          <img src={ img1 } style={{ width: '200px' }}/>  
                
-            <h1>Test-3</h1>          
-            <ul style={{ listStyle: 'none' }}>
-              {
-                message.map((text, index) => <li key={ index }>
-                    { text }
-                  </li>)
-              }
-            </ul>
+          <h1>Test-3</h1>          
+          <ul style={{ listStyle: 'none' }}>
+            {
+              message.map((text, index) => <li key={ index }>
+                  { text }
+                </li>)
+            }
+          </ul>
         </header>
         <hr/>
         <section>
