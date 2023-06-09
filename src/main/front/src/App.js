@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className="App">
         <header>  
-            <img src={img1} style={{ width: '200px' }}/>   
+               
             <h1>Test-3</h1>          
             <ul style={{ listStyle: 'none' }}>
               {
