@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import img1 from './1.jpg';
+
 import './App.css';
 
 const App = () => {
