@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:11
 
 ARG JAR_FILE=build/libs/PipeGradleTest-0.0.1-SNAPSHOT.jar
 
