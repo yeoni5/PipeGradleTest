@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-
+import img1 from './1.jpg';
 import './App.css';
 
 const App = () => {
@@ -29,9 +29,9 @@ const App = () => {
   return (
     <div className="App">
         <header>
-            
+          <img src={ img1 } style={{ width: '200px' }} alt='' />  
                
-          <h1>Test-112</h1>          
+          <h1>Test-10</h1>          
           <ul style={{ listStyle: 'none' }}>
             {
               message.map((text, index) => <li key={ index }>
